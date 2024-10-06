@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+body{
+  background-image: url(img/Group\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+}
+
+.header{
+  margin: 20px 0px 40px 30px;
+}
+
+img{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  transition: 400ms;
+}
+
+
+form{
+  backdrop-filter: blur(25px);
+  background-color: rgba(58, 58, 58, 0.486);
+  padding: 10px 30px 30px 30px;
+  border-radius: 20px;
+  margin-bottom: 45px;
+  color: white;
+}
